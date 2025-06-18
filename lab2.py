@@ -22,3 +22,10 @@ favorite_things = {"movie":"Baby Driver", 'food':'pupusas',
 'color':'light blue', 'animal':'Allosaurs', 'sport':'soccer',}
 
 #Optional: add your own variables here!
+soccer_positions = ["Right Back", "Right Wing", 'Center Defensive Mid']
+siblings = 2
+oldest_sibling = true
+only_boy = true
+girl_siblings = true
+boy_siblings = false
+nationality = ['salvadorian', 'American']
