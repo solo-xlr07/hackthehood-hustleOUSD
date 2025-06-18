@@ -1,0 +1,17 @@
+START
+1. Set the time for the arlam to go off
+   1a. Specify Whenther it's in military time or standard time
+   1b. Specify whenther its AM or PM
+   1c. Specify what timezon its in
+   1d. Specify what day(s) of the week you want the alarm to go off
+
+2. If the current time is not equal to the time the alarm should go off
+   2a. Alarm will be stay silent, wait until current time equal the tim the alarm should go off
+
+3. If the current time is equal to the time the alarm should go off
+   3a. Alarn will sound
+   3b. Ask user to either snooze or completely stop the alarm
+       3b.1 If user snooze, then snooze alarm for 5 minutes
+            Once 5 minutes passes, alarm goes off again, and ask the user to snooze or stop again
+        3b.2 If user stops the alarm, alarm turns off and doesn't turn on until its schedule to again. END FUNCTIONS
+END
