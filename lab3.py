@@ -43,8 +43,8 @@ print(books.keys())                   #2
 print(books.values())                 #3
 print(books.get("Scott Cawthon"))     #4
 
-books.pop('Gregory Keyes') #find specific value
+books.pop('Gregory Keyes') 
 print(books)
 
-del books['Scott Cawthon'] #find specific value
+del books['Scott Cawthon'] 
 print(books)
