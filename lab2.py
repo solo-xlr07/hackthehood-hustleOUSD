@@ -21,7 +21,7 @@ hobbies = ['soccer', 'playing videogames',
 favorite_things = {"movie":"Baby Driver", 'food':'pupusas', 
 'color':'light blue', 'animal':'Allosaurs', 'sport':'soccer',}
 
-#Optional: add your own variables here!
+#Optional Part
 soccer_positions = ["Right Back", "Right Wing", 'Center Defensive Mid']
 siblings = 2
 oldest_sibling = true
