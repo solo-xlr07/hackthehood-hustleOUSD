@@ -94,12 +94,11 @@ def generate_multiple_powers():
 
 
 #CALLING FUNCTIONS
-#cat_greeting("Meow") #Step 1
-#generate_superhero_power_fixed() #Step 2
-#grow() #Step 2 - Grow
-#print(generate_superhero_power_return()) #Step 3
-#print(generate_superhero_power_arg("Kai","Ice Beam")) #Step 4
-#cat_greetings_loop()#Step 5
+cat_greeting("Meow") #Step 1
+generate_superhero_power_fixed() #Step 2
+grow() #Step 2 - Grow
+print(generate_superhero_power_return()) #Step 3
+print(generate_superhero_power_arg("Kai","Ice Beam")) #Step 4
+cat_greetings_loop()#Step 5
 cat_greeting_grow()#Step 5 - Grow
-#generate_multiple_powers()#Step 6
-#python3 lab5.py
+generate_multiple_powers()#Step 6
