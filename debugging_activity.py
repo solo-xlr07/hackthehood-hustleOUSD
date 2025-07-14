@@ -14,7 +14,7 @@ numbers = [1, 2, 3, 4, 5]
 for i in range(len(numbers)):
    print(numbers[i]) #error
 #We want to access al the lists value. i+1 didnt let us so I removed the +1,
-#therefore we can access each other 
+#therefore we can access each other.
 
 #CODE SNIPPET 3
 print('-----Case 3:-----')
@@ -66,14 +66,14 @@ def factorial(n):
    if n == 0:
        return 1
    else:
-       return n * (n+1) #Cant call function inside same function
+       return n * factorial(n-1) #We desending so we subtracting not adding
  
 print(factorial(5))
 
 #CODE SNIPPET 9
 print('-----Case 9:-----')
 name = input("Enter your name: ")
-if name == "Alice" or name == "Bob": #error
+if name == "Alice" or name == "Bob": #Change
    print("Hello, " + name)
 else:
    print("Hello, stranger!")
